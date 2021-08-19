@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Matt French's Website</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="bar">
+            <h1>Matthew French</h1>
+            <ul id="nav">
+                <li class="page-link"><a href="#home">Home</a></li>
+                <li class="page-link"><a href="#about">About</a></li>
+                <li class="page-link"><a href="#projects">Projects</a></li>
+                <li class="page-link"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <section class="screen" id="home">
+            <img id="logo" src=./images/logo.png>
+            <div id="links">
+                <a href="https://github.com/frenchmatt" target="_blank" rel="noopener noreferrer">
+                    <img class="icon" src=./images/github.png>
+                <a href="https://www.linkedin.com/in/matthewgfrench/" target="_blank" rel="noopener noreferrer">
+                    <img class="icon" src=./images/linkedin.png>
+                </a>
+                <a href="./MatthewFrenchResume.pdf" target="_blank" rel="noopener noreferrer">
+                    <img class="icon" src=./images/resume.png>
+                </a>
+            </div>
+        </section>
+        <section class="screen" id="about">
+            <img src=./images/portrait.png>
+            <div class="text-box">
+                <h2>About Me</h2>
+                <p>I'm currently a student at the University of Michigan pursuing my M.S.E in Electical and Computer Engineering with a focus on embedded systems. I have experience in lots of different areas including the design of embedded systems, ASIC and FPGA design and verification, machine learning, computer vision, robotics, software, automation, and more.</p>
+            </div>
+        </section>
+        <section class="screen" id="projects">
+            <div class="project">
+                <div class="img-box"><img id="mfly" src=./images/mfly.png></div>
+                <h2>M-Fly</h2>
+                <p>Lead hardware engineer at M-Fly, an extracurruicular student project team at the University of Michigan.</p>
+                <button>Learn More!</button>
+            </div>
+            <div class="project">
+                <div class="img-box"><img id="spacex" src=./images/spacex.png></div>
+                <h2>SpaceX</h2>
+                <p>Intern twice at SpaceX on the Starlink FPGA and ASIC team.</p>
+                <button>Learn More!</button>
+            </div>
+            <div class="project">
+                <div class="img-box"><img id="dcs" src=./images/dcs.png></div>
+                <h2>DCS Corp.</h2>
+                <p>Computer engineering intern at DCS, an engineering contractor which works with the US Army.</p>
+                <button>Learn More!</button>
+            </div>
+            <div class="project">
+                <div class="img-box"><img id="minitrace" src=./images/minitrace.png></div>
+                <h2>Minitrace</h2>
+                <p>Smart watch that can alert users to exposure of infectious diseases by contact tracing via Bluetooth LE.</p>
+                <button>Learn More!</button>
+            </div>
+            <div class="project">
+                <div class="img-box"><img id="core" src=./images/chip.png></div>
+                <h2>N-Superscalar RISC V Core</h2>
+                <p>Synthesizable, out-of-order, N-way parameterized superscalar core implementing RISC-V base and multiple instructions; written in Verilog.</p>
+                <button>Learn More!</button>
+            </div>
+            <div class="project">
+                <div class="img-box"><img id="chessbot" src=./images/chessbot.png></div>
+                <h2>Chessbot</h2>
+                <p>Robotic chess oponent which utilized robotic arm to move pieces and camera system with chess engine to plan moves.</p>
+                <button>Learn More!</button>
+            </div>
+            <div class="project">
+                <div class="img-box"><img id="wildfire" src=./images/drone.png></div>
+                <h2>Wildfire Detecting Drone</h2>
+                <p>Reduced computation of fire detection CNNs to enable use on embedded platforms like drones.</p>
+                <button>Learn More!</button>
+            </div>
+        </section>
+        <section class="screen" id="contact">
+            <h2>Want to get in contact?</h2>
+            <form action="" method="">
+                <input name="name" class="form-item" type="text" placeholder="name" required>
+                <input name="email" class="form-item" type="text" placeholder="email" required>
+                <textarea name="message" class="form-item" placeholder="message" rows="6" required></textarea>
+                <input name="submit" class="form-submit" id="submit" type="submit" value="SEND">
+            </form>
+        </section>
+    </body>
+</html>
